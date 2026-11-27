@@ -1,19 +1,9 @@
-# Arcade Hub: Keyboard Escape + U-Boot Adventure
+# Playroom — GitHub Pages
 
-Ein statischer, GitHub-Pages-fähiger Spiele-Hub mit zwei auswählbaren Spielen.
+A two-game browser arcade page. Games are HTML/Canvas, no external dependencies.
 
-## Inhalt
-- `index.html` — Startmenü und eigenständiges Keyboard-Arcade-Spiel (Tastenreaktion, Wellen, Punkte, Leben, steigende Schwierigkeit).
-- `uboot.html` — Original-`index.html` aus der bereitgestellten ZIP, unverändert als separate Spielseite eingebunden.
-- `README.md` — diese Anleitung.
+- **Keyboard Candy Escape**: original candy keyboard obstacle game, incremental speed, candy currency, stages, training, upgrades, rebirth, browser save.
+- **U-Boot Adventure**: included from the uploaded ZIP without modifying the original game HTML or README contents; accessible from the home page.
 
-## Lokal testen
-ZIP entpacken und `index.html` im Browser öffnen. Für Browser, die lokale Iframes einschränken, den Ordner über einen lokalen Webserver oder GitHub Pages starten.
-
-## GitHub Pages
-1. Dateien aus dem ZIP in ein neues Repository hochladen.
-2. Repository → **Settings → Pages**.
-3. **Deploy from a branch** wählen, Branch `main`, Ordner `/ (root)`.
-4. Speichern und warten, bis GitHub Pages veröffentlicht ist.
-
-Hinweis: Keyboard Escape ist eine eigenständige, inspirierte Umsetzung und kein offizieller Roblox-Port. Roblox-Originalassets und exakte proprietäre Gestaltung sind nicht enthalten.
+## Deploy
+Upload all files/folders to the root of a GitHub repository. Go to **Settings → Pages**, choose deploy from branch `main`, folder `/ (root)`. The landing page is `index.html`.
